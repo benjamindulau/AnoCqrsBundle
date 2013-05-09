@@ -9,7 +9,7 @@
             "name":     "Benjamin Dulau",
             "email":    "benjamin.dulau@gmail.com",
             "homepage": "http://www.anonymation.com"
-        },
+        }
     ],
     "minimum-stability": "dev",
     "require": {
