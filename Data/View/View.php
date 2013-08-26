@@ -35,7 +35,7 @@ abstract class View implements ViewInterface
 
         $reflection = new \ReflectionClass($this);
         foreach($reflection->getProperties() as $property) {
-            $data[$property->getName()] = $property->getValue();
+            $data[$property->getName()] = $property->getValue($this);
         }
 
         return $data;
